@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1>Run to the River</h1>
+	<section class="dashboard">
+        <span class="lives">Live(s):     
+                 <span id="lives">5</span>
+        </span>
+        &nbsp &nbsp &nbsp &nbsp
+		<span class="score">Score:
+            	 <span id="score"></span>
+        </span>
+		<span class="time">
+                &nbsp &nbsp &nbsp &nbsp
+                <span class="minutes">00</span> <sub class="sub-minutes">m</sub>: 
+                <span class="seconds">00</span>
+                <sub class="sub-seconds">s</sub> 
+            </span>
+            <span class="restart">
+                <i class="fa fa-repeat"></i>
+            </span>
+	</section>
+	<div class="modal1">
+        <div class="modal-content">
+            <section class="info">
+                <h1>Choose Player</h1>
+                <div class="Player-List">
+                	<button class="player princess-girl"></button>
+                    <button class="player cat-girl"></button>
+                    <button class="player alien-boy chosen"></button>
+                    <button class="player horn-girl"></button>
+                    <button class="player pink-girl"></button>
+                </div>
+                <div class="instruction">
+                	<h3>The game play is simple.<br />See how many times you
+                		can run across to the river<br />avoiding the moving bugs.<br />The speed of the bugs increase as your score increases.<br />You
+                		are back to square on every collission with a bug.<br />Already feeling lucky? click on start!!!
+                	</h3>
+                </div>
+            </section>
+            <section class="actions">
+                <button id="start">START</button>
+            </section>
+        </div>
+    </div>
+    <div id="end-modal-container" class="end-modal">
+        <div class="end-modal-content">
+            <h1>Game Over.</h1>
+            <h2 class="score">Score:
+                 <span id="final-score"></span>
+            </h2>
+            <button class="play-again-yes">Play Again</button>
+            
+        </div>
+    </div>
+
+    <script src="js/resources.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+    color: #fcfef5;
+}
+
+h1 {
+    color: #0076fe;
+}
+h3 {
+    text-align: center;
+    background-color: #4b6da6;
+    width: 30%;
+}
+
+.instruction {
+    position: relative;
+    left: 35%;
+}
+
+button {
+    background-color: #4b6da6;
+    color: #eef0ff;
+    font-size: 17px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+button:hover, button:focus {
+    color: #eef0ff;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+
+.modal1 {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 70px;
+  padding-bottom: 40px; /* Location of the box */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.player {
+    
+    width: 20%;
+    max-width: 100px;
+    height: 100px;
+}
+
+
+.alien-boy {
+    background-image: url('../images/char-boy.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.cat-girl {
+    background-image: url('../images/char-cat-girl.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.horn-girl {
+    background-image: url('../images/char-horn-girl.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.pink-girl{
+    background-image: url('../images/char-pink-girl.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.princess-girl {
+    background-image: url('../images/char-princess-girl.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.chosen {
+    border: 5px solid green;
+}
+
+.dashboard {
+	position: relative;
+	text-align: auto;
+    width: 100%;
+    top: 3vh;
+    font-size: 25px;
+    color: #0076fe;
+    display: none;
+}
+
+.end-modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.end-modal-content {
+    color: #4b6da6;
+    background-color: #f4f4f4;
+    margin:20% auto;
+    padding: 20px;
+    max-width: 20%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.2)
+}
