@@ -17,3 +17,7 @@
  
  ## Method:
 Using object Oriented JavaScript to implement Player and Enemy classes with  some provided methods to create the game play.
+
+## Additional functionalities
+In the nearest future, i hope to expand on the current functionalities by making the game available for play on touch screen devices.
+I also hope to add collectibles during play to make the game play more exciting.
