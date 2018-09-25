@@ -16,4 +16,4 @@
  This repository is my project work to be reviewed and evaluated. Therefore, I most likely will not accept pull requests.
  
  ## Method:
-Using object Oriented JavaScript, 
+Using object Oriented JavaScript to implement Player and Enemy classes with  some provided methods to create the game play.
