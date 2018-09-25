@@ -14,6 +14,6 @@
 * ### Once the player reaches the water (i.e., the top of the game board), the score is increased.
  ## Contributing
  This repository is my project work to be reviewed and evaluated. Therefore, I most likely will not accept pull requests.
- For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+ 
  ## Method:
-Using JavaScript, CSS and HTML, i 
+Using object Oriented JavaScript, 
